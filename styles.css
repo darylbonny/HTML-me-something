@@ -1,1 +1,45 @@
-/* Write your CSS here! */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 300px;
+    background-image: url("images/porsche2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+ h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+
+ }
+
+ .button:active {
+    top:50%;
+    background-color: #0a0a23;
+    color: #fff;
+    transition: 0.2s;
+}
+
+p2 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+p3 {
+    color: chartreuse;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
