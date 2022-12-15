@@ -6,12 +6,12 @@
    </head>
    <body>
    <main>
-      <h1>Daryl</h1>
-      <button type="button" class="button">Click me!</button>
-      <p2> this button does nothin (yet!)</p2>
-      <h2>
+      <h1 id="mainHeading">Daryl</h1>
+      <button type="button" class="button" >Click me!</button>
+      <p2 id="buttonLabel">this button does nothin'</p2>
+      <h2 id="factList">
          <!-- <ol> -->
-            <li>My favorite color is <p3>green</p3></li>
+            <li>My favorite color is <p3 id="greenText">green</p3></li>
             <li>I'm a photographer </li>
             <li>My favorite food is sushi</li>
             <li>Florida is my favorite state</li>
@@ -20,15 +20,19 @@
          <!-- </ol> -->
       </h2>
       <article>
-         <header>
-           <h1>&quot;Its not technology that makes history, 
+         <header style="font-family:fantasy;">
+           <p id="testP" name="funParagraph">&quot;Its not technology that makes history, 
             but the people who invented it.&quot; 
-            </h1>
+            <p4 id="author">- Ferdinand Porsche</p4>
+           </p>
          </header>
          <footer>
-            <p4>- Ferdinand Porsche</p4>
-          </footer>
+            <img src="../images/porschead.jpg" alt="porsche ad" width="300px" height="400px">
+         </footer>
        </article>
    </main>
+   <div style="position: relative">
+      <p id="bottomHeading"style="color: chartreuse; position: fixed; bottom: 0; width: 100%; text-align: center;">PORSCHE
+      </p>
    </body>
 </html>

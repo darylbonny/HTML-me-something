@@ -11,35 +11,50 @@ body {
 
  }
 
- h1{
-    color: white;
+ #mainHeading {
+    color: red;
     text-align: center;
     font-size: 50px;
+    font-family:'Courier New', Courier, monospace
 
 
  }
 
  .button:active {
     top:50%;
-    background-color: #0a0a23;
-    color: #fff;
+    background-color: black;
+    color: lightgreen;
     transition: 0.2s;
 }
 
-p2 {
-    color: white;
+#buttonLabel {
+    color: lime;
 }
 
-h2 {
+#testP {
     text-align: center;
-    color: white;
+    color: green;
+    font-size: xx-large;
 }
 
-p3 {
+#factList {
+    color: green;
+    text-align: center;
+}
+
+#greenText {
     color: chartreuse;
 }
 
-footer {
-    color: white;
+#author {
+    color: chartreuse;
     text-align: center;
+    font-family: cursive;
+}
+
+#bottomHeading {
+    font-weight: 100;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font:bolder;
 }
